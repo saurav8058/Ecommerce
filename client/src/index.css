@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+ 
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* //navbar css */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px rgb(253, 253, 253);
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid rgb(245, 240, 240) !important;
+}
+.logoimg{
+  width: 150px;
+}
+
+.nav-link {
+  font-weight: 500 !important;
+  margin-left: 20px;
+  color: #000000;
+}
+
+.active {
+  border-bottom: 2px solid #EE543A
+}
+
+.dropdown{
+  padding: 3px;
+  padding-top: 2px;
+
+  margin-right: 4px;
+ 
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-left:100 px;
+
+}
+.search-form input {
+
+  border-radius: 5px;
+}
+.search-form button {
+  background-color: #ec1a1a;
+  border-radius: 5px;
+  color: white;
+
+}
+
+
+/* =============================
+==========footer============= */
+
+.footer {
+  overflow-x: hidden;
+  margin-top: 80px;
+  color: white;
+  padding: 20px;
+ 
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #1d1b17;
+  border-bottom: 1px solid #EE543A;
+}
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+
+}
+.cat-btn:hover {
+  background-color: #e01919;
+  color: white;
+}
+/* ================
+====dashboard
+=================== */
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #EE543A !important;
+  color: white;
+  padding: 20px 0px;
+}
+
+
+.backcolor{
+  background-color: #c41616;
+}
+.categoryimg{
+  margin-left: 20px;
+}
+
+/* Register buttom */
+
+.regisbuttn{
+  background-color: #c41616;
+}
