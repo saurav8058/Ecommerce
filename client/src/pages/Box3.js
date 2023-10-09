@@ -1,5 +1,5 @@
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import "../../node_modules/react-multi-carousel/lib/styles.css"
 
 function Box3() {
     const responsive = {
