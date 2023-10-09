@@ -36,7 +36,7 @@ app.use("/api/v1/product", productRoutes);
 
 //rest api
 app.get('/',function(req,res){
-  res.send(path.join('<h1>Welcome to my 99sale<h1>'));
+  res.send('<h1>Welcome to my 99sale<h1>');
 })
 
 //PORT
