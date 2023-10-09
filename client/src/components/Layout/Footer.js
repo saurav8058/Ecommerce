@@ -28,16 +28,16 @@ const Footer = () => {
             Products
           </h6>
           <p>
-            <Link to={"http://localhost:3000/category/mens"} class="text-reset">Mens</Link>
+            <Link to={"https://ecommerce-gilt-alpha.vercel.app/category/mens"} class="text-reset">Mens</Link>
           </p>
           <p>
-            <Link to={'http://localhost:3000/category/women'} class="text-reset">Women</Link>
+            <Link to={'https://ecommerce-gilt-alpha.vercel.app/category/women'} class="text-reset">Women</Link>
           </p>
           <p>
-            <Link to={'http://localhost:3000/category/sports'} class="text-reset">Sport</Link>
+            <Link to={'https://ecommerce-gilt-alpha.vercel.app/category/sports'} class="text-reset">Sport</Link>
           </p>
           <p>
-            <Link to={'http://localhost:3000/category/electronics'} class="text-reset">Electronic</Link>
+            <Link to={'https://ecommerce-gilt-alpha.vercel.app/category/electronics'} class="text-reset">Electronic</Link>
           </p>
         </div>
       
@@ -50,10 +50,10 @@ const Footer = () => {
             <Link href="/privacy" class="text-reset">Privacy</Link>
           </p>
           <p>
-            <Link to={"http://localhost:3000/about"} class="text-reset">About</Link>
+            <Link to={"https://ecommerce-gilt-alpha.vercel.app/about"} class="text-reset">About</Link>
           </p>
           <p>
-            <Link to={'http://localhost:3000/contact'} class="text-reset">Contactus</Link>
+            <Link to={'https://ecommerce-gilt-alpha.vercel.app/contact'} class="text-reset">Contactus</Link>
           </p>
          
         </div>
