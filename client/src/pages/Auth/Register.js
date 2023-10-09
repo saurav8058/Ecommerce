@@ -18,8 +18,8 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // const res = await axios.post("/api/v1/auth/register", { Incorrect
-      const res = await axios.post("http://localhost:8080/api/v1/auth/register", {
+      // const res = await axios.post("https://https://ecommerce-9t2j.onrender.com/api/v1/auth/register", { Incorrect
+      const res = await axios.post("http://localhost:8080https://https://ecommerce-9t2j.onrender.com/api/v1/auth/register", {
         name,
         email,
         password,
